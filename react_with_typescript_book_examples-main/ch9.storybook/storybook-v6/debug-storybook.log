@@ -1,0 +1,42 @@
+[15:55:21.815] [INFO] [36mInitializing Storybook[39m
+[15:55:22.200] [DEBUG] Getting package.json info for C:/Users/rlawo/Desktop/KT/개인 공부/현장에서 바로 써먹는 리액트 with 타입스크립트/react_with_typescript_book_examples-main/ch9.storybook/storybook-v6/package.json...
+[15:55:22.201] [DEBUG] Getting CLI versions from NPM for storybook...
+[15:55:22.201] [DEBUG] Executing command: npm info storybook version
+[15:55:23.016] [INFO] Adding Storybook version 10.2.0 to your project
+[15:55:23.018] [DEBUG] Project type detected: react_scripts
+[15:55:23.582] [PROMPT] We found a .storybook config directory in your project.
+We assume that Storybook is already instantiated for your project. Do you still want to continue and force the initialization? {"choice":true}
+[15:55:23.582] [DEBUG] Using cached package.json for C:\Users\rlawo\Desktop\KT\개인 공부\현장에서 바로 써먹는 리액트 with 타입스크립트\react_with_typescript_book_examples-main\ch9.storybook\storybook-v6\package.json...
+[15:55:23.584] [INFO] Framework detected: react-webpack5
+[15:55:23.585] [DEBUG] Getting installed version for vitest...
+[15:55:23.585] [DEBUG] Executing command: npm ls --json --depth=99 2>NUL
+[15:55:24.158] [DEBUG] Executing command: npm ls --json --depth=0 2>NUL
+[15:55:24.735] [DEBUG] Error finding installations for vitest: ExecaError: Command failed with exit code 1: npm.cmd ls --json "--depth=0" "2>NUL"
+
+{
+  "version": "0.1.0",
+  "name": "storybook"
+}
+[15:55:24.735] [DEBUG] No installations found for vitest
+[15:55:24.735] [DEBUG] Getting installed version for msw...
+[15:55:24.735] [DEBUG] Executing command: npm ls --json --depth=99 2>NUL
+[15:55:25.310] [DEBUG] Executing command: npm ls --json --depth=0 2>NUL
+[15:55:25.889] [DEBUG] Error finding installations for msw: ExecaError: Command failed with exit code 1: npm.cmd ls --json "--depth=0" "2>NUL"
+
+{
+  "version": "0.1.0",
+  "name": "storybook"
+}
+[15:55:25.889] [DEBUG] No installations found for msw
+[15:55:31.161] [PROMPT] New to Storybook? {"choice":true}
+[15:55:31.162] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
+[15:55:32.317] [ERROR] [38;2;241;97;97mError: It looks like you're trying to initialize Storybook in a CRA project that does not have react-scripts installed.
+Please install it and make sure it's of version 5 or higher, which are the versions supported by Storybook 7.0+.[39m
+    at Object.configure (file:///C:/Users/rlawo/AppData/Local/npm-cache/_npx/fd14e96670b26896/node_modules/create-storybook/dist/_node-chunks/chunk-UKMQREIT.js:2129:13)
+    at async GeneratorExecutionCommand.executeProjectGenerator (file:///C:/Users/rlawo/AppData/Local/npm-cache/_npx/fd14e96670b26896/node_modules/create-storybook/dist/_node-chunks/chunk-UKMQREIT.js:1318:58)
+    at async GeneratorExecutionCommand.execute (file:///C:/Users/rlawo/AppData/Local/npm-cache/_npx/fd14e96670b26896/node_modules/create-storybook/dist/_node-chunks/chunk-UKMQREIT.js:1367:27)
+    at async doInitiate (file:///C:/Users/rlawo/AppData/Local/npm-cache/_npx/fd14e96670b26896/node_modules/create-storybook/dist/_node-chunks/chunk-UKMQREIT.js:2279:68)
+    at async file:///C:/Users/rlawo/AppData/Local/npm-cache/_npx/fd14e96670b26896/node_modules/create-storybook/dist/_node-chunks/chunk-UKMQREIT.js:2322:20
+    at async withTelemetry (file:///C:/Users/rlawo/AppData/Local/npm-cache/_npx/fd14e96670b26896/node_modules/storybook/dist/_node-chunks/chunk-5T2PCIM6.js:218:12)
+    at async initiate (file:///C:/Users/rlawo/AppData/Local/npm-cache/_npx/fd14e96670b26896/node_modules/create-storybook/dist/_node-chunks/chunk-UKMQREIT.js:2315:24)
+    at async _Command.<anonymous> (file:///C:/Users/rlawo/AppData/Local/npm-cache/_npx/fd14e96670b26896/node_modules/create-storybook/dist/_node-chunks/run-LNSO6ZTX.js:2683:144)
