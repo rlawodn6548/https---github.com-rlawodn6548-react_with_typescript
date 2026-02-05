@@ -2,7 +2,7 @@ import {Meta, StoryObj} from '@storybook/react';
 import {BlogList} from './index';
 
 const meta: Meta<typeof BlogList> = {
-    title: 'Template/BlogList',
+    title: 'Templates/BlogList',
     component: BlogList,
 } satisfies Meta<typeof BlogList>;
 export default meta;
